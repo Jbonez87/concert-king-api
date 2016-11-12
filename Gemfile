@@ -7,10 +7,10 @@ gem 'httparty'
 gem 'rack-cors'
 gem 'ffaker'
 gem 'devise'
+gem 'dotenv-rails'
 
 group :development, :test do
   gem 'pry-rails', platform: :mri
-  gem 'dotenv-rails'
 end
 
 group :development do
